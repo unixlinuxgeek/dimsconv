@@ -6,9 +6,9 @@ type Inch float64
 type Cm float64
 
 func (i Inch) String() string {
-	return fmt.Sprintf("%g", i)
+	return fmt.Sprintf("%g ″", i)
 }
 
 func (cm Cm) String() string {
-	return fmt.Sprintf("%g", cm)
+	return fmt.Sprintf("%g Cm", cm)
 }
